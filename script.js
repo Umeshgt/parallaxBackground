@@ -11,13 +11,13 @@ let x2 = 0
 BImage1 = new Image()
 BImage1.src = "C:\projects\parallaxBackground\backgroundLayers\layer-1.png"
 BImage2 = new Image()
-BImage2.src = "C:\projects\parallaxBackground\backgroundLayers\layer-1.png"
+BImage2.src = "C:\projects\parallaxBackground\backgroundLayers\layer-2.png"
 BImage3 = new Image()
-BImage3.src = "C:\projects\parallaxBackground\backgroundLayers\layer-1.png"
+BImage3.src = "C:\projects\parallaxBackground\backgroundLayers\layer-3.png"
 BImage4 = new Image()
-BImage4.src = "C:\projects\parallaxBackground\backgroundLayers\layer-1.png"
+BImage4.src = "C:\projects\parallaxBackground\backgroundLayers\layer-4.png"
 BImage5 = new Image()
-BImage5.src = "C:\projects\parallaxBackground\backgroundLayers\layer-1.png"
+BImage5.src = "C:\projects\parallaxBackground\backgroundLayers\layer-5.png"
 
 
 function animate(){
