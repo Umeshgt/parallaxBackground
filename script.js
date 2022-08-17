@@ -51,6 +51,9 @@ class Layer {
         // }
         // this.x = this.x - this.speed
         this.x = this.x - this.speed
+
+        /* this.x = gameFrame * this.speed % this.width   // another way than using if statement but still has flows
+        */
     }
 
     draw(){
@@ -78,6 +81,7 @@ function animate(){
         object.draw()
     })
     requestAnimationFrame(animate)
+    //gameFrame--
 }
 
 animate();
