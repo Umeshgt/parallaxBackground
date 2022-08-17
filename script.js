@@ -19,10 +19,11 @@ const BImage5 = new Image();
 BImage5.src = "layer-5.png";
 
 let x = 0;
-let x2 = 0;
+let x2 = x + 2400;
 
 function animate(){
     ctx.clearRect(0,0, CANVAS_WIDTH, CANVAS_HEIGHT );
+    
     ctx.drawImage(BImage4, x,0);
     ctx.drawImage(BImage4, x2,0);
     if(x < -2400) x = 2400 + x2 - gamespeed;
